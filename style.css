@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #111;
+    color: white;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+}
